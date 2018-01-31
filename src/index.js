@@ -1,4 +1,4 @@
-function noop() {}
+const noop = Function.prototype;
 
 export default function (url, opts) {
 	opts = opts || {};
